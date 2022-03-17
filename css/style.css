@@ -28,15 +28,42 @@
 
 /* ---------- GENERAL RULES */
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /* ---------- HEADER */
+
+    /* HEADER TOP */
+
 .header-top{
     background-color: var(--dark-color);
 }
 .header-top .img-container{
     width: 100px;
+}
+    /* HEADER BOTTOM */
+
+.header-bottom .dropdown-toggle::after {
+    content: none;
+}
+.header-bottom .nav-text{
+    color: var(--dark-color);
+    font-weight: 600;
+}
+.header-bottom .nav-caret{
+    color: var(--grey-color);
+    font-size: 0.8rem;
+    margin: 0 5px;
+}
+.header-bottom .btn{
+    margin: 0 10px;
+}
+.header-bottom .fa-magnifying-glass{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
 }
 
 
