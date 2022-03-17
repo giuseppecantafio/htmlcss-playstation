@@ -5,11 +5,25 @@
     border: 1px solid black;
 
 }
+.debug-light{
+    border: 1px solid white;
+}
 
 
 /* --------- VARIABILI */
 
-
+:root{
+    --dark-color: #000000;
+    --light-color: #FFFFFF;
+    --blue-color: #3066E6;
+    --grey-color: #858585;
+    --games-card-color: #1F1F1F;
+    --footer-color: #00439C;
+    --button-first-color: #CD3D0F;
+    --button-second-color: #2D64E6;
+    --button-third-color: #D9DADC;
+    --active-color: #187FD2;
+}
 
 
 /* ---------- GENERAL RULES */
@@ -18,7 +32,12 @@
 
 
 /* ---------- HEADER */
-
+.header-top{
+    background-color: var(--dark-color);
+}
+.header-top .img-container{
+    width: 100px;
+}
 
 
 
