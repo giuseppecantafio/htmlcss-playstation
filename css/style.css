@@ -56,7 +56,7 @@ body{
 }
 .header-bottom .nav-caret{
     color: #999;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0 5px;
 }
 .header-bottom .btn{
@@ -81,6 +81,18 @@ main{
 }
 
     /* JUMBOTRON */
+
+#jumbotron{
+    height: 675px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+[alt=returnal-logo]{
+    max-width: 400px;
+}
+
 
 
 
