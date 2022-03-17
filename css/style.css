@@ -31,7 +31,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.btn{
+    font-weight: 600;
+}
 
 /* ---------- HEADER */
 
@@ -53,7 +55,7 @@ body{
     font-weight: 600;
 }
 .header-bottom .nav-caret{
-    color: var(--grey-color);
+    color: #999;
     font-size: 0.8rem;
     margin: 0 5px;
 }
@@ -65,10 +67,21 @@ body{
     margin-left: 10px;
     font-size: 1.2rem;
 }
+.nav-item a:hover .nav-text,
+.nav-item a:hover .nav-caret{
+    color: #0070d1;
+}
 
 
 
 /* ---------- MAIN */
+
+main{
+    margin-top: 116px;
+}
+
+    /* JUMBOTRON */
+
 
 
 

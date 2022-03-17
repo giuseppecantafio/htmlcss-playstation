@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="fixed-top">
         <div class="header-top container-fluid d-flex justify-content-end">
             <div class="img-container py-2">
                 <a href="#">
@@ -119,10 +119,14 @@
                             </div>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-dark">Accedi</button>
+                            <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
                         </li>
                         <li>
-                            <span class="nav-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <a href="#">
+                                <span class="nav-text">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -133,9 +137,14 @@
 
     <!-- Main -->
     <main>
-        <section id="jumbotron">
-            <div class="container">
-
+        <section id="jumbotron debug">
+            <div class="container debug">
+                <div class="jumbotron jumbotron-fluid debug">
+                    <div class="container">
+                        <h1 class="display-4 text-black">Fluid jumbotron</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="playstation-5">
