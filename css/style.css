@@ -115,14 +115,40 @@ main{
 }
 
     /* PLAYSTATION-5 */
+
 #playstation-5 .container{
     padding-top: 20px;
 }
-#playstation-5 .img-container{
+#playstation-5 .container-1 .img-container{
     border-radius: 15px;
     overflow: hidden;
 }
-
+#playstation-5 .container-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#playstation-5 .container-2 .h6{
+    color: var(--active-color);
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+#playstation-5 .container-2 .h1,
+#playstation-5 .container-3 .h1{
+    color: var(--dark-color);
+    padding-bottom: 15px;
+    
+}
+#playstation-5 .container-2 .h6:last-of-type,
+#playstation-5 .container-3 .h6{
+    color: var(--grey-color);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+#playstation-5 .container-3 .btn{
+    margin-top: 10px;
+    background-color: var(--button-second-color);
+    color: var(--light-color);
+}
 
 
 
