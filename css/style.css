@@ -150,6 +150,36 @@ main{
     color: var(--light-color);
 }
 
+    /* GAME-1 */
+
+#game-1{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+[alt=it-takes-two-logo]{
+    max-width: 300px;
+    margin-left: -10px;
+}
+#game-1 h1,
+#game-1 p{
+    color: var(--light-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#game-1 h1{
+    font-size: 2rem;
+}
+#game-1 p{
+    min-height: 100px;
+    font-size: 1rem;
+}
+#game-1 .btn{
+    background-color: var(--button-first-color);
+    color: var(--light-color);
+}
+
 
 
 
