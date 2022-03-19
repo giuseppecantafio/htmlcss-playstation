@@ -149,6 +149,49 @@ main{
     background-color: var(--button-second-color);
     color: var(--light-color);
 }
+#playstation-5 .container-4{
+    padding-bottom: 50px;
+}
+#playstation-5 .container-4 .card{
+    /* height: 220px; togliere */
+    text-align: center;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+#playstation-5 .container-4 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playstation-5 .container-4 .img-container{
+    max-width: 150px;
+}
+#playstation-5 .container-4 .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#playstation-5 .container-4 .card-text-wrapper{
+    padding-top: 15px;
+}
+#playstation-5 .container-4 .card.active .card-text{
+    padding-bottom: 50px;
+}
+#playstation-5 .container-4 .card.active{
+    border-bottom: 3px solid var(--active-color);
+}
+#playstation-5 .container-4 .card.unactive{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
 
     /* GAME-1 */
 
@@ -195,7 +238,6 @@ main{
 }
 #games-card .card{
     background-color: transparent;
-    background-clip: border-box;
     border: 0;
     border-radius: 0;
 }
