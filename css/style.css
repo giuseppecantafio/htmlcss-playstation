@@ -182,8 +182,31 @@ main{
 
     /* GAMES-CARD */
 
-
-
+#games-card{
+    background-color: var(--games-card-color);
+}
+#games-card .text-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#games-card .text-container,
+#games-card .card-text{
+    color: var(--light-color);
+}
+#games-card .card{
+    background-color: transparent;
+    background-clip: border-box;
+    border: 0;
+    border-radius: 0;
+}
+#games-card .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 15px;
+}
+#games-card .card-text-wrapper{
+    padding-top: 15px;
+}
 
 
 
