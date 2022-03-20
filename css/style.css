@@ -302,9 +302,9 @@ main{
 }
 
     /* STORE */
-    
+
 #store{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 #store .container-1{
     padding-bottom: 20px;
@@ -338,6 +338,21 @@ main{
 #playstation-now .btn{
     background-color: var(--light-color);
     color: var(--dark-color);
+}
+
+    /* SOCIALE */
+#social{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#social .social-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+#social .social-wrapper h2{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
 }
 
 
