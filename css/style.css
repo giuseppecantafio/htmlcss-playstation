@@ -219,6 +219,8 @@ main{
 
 #games-card{
     background-color: var(--games-card-color);
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 #games-card .text-container{
     padding-top: 20px;
@@ -242,6 +244,34 @@ main{
     padding-top: 15px;
 }
 
+  /* PLAYSTATION */
+
+#playstation{
+    padding-top: 20px;  
+}
+#playstation .container-1{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#playstation .container .h1{
+    color: var(--dark-color);
+    padding-bottom: 15px;
+}
+#playstation .container-1 .h1 span{
+    font-size: 1rem;
+    position: relative;
+    top: -15px;
+}
+#playstation .container .h6{
+    color: var(--grey-color);
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+#playstation .container-2 .btn{
+    background-color: var(--button-second-color);
+    color: var(--light-color);
+}
 
 
 
