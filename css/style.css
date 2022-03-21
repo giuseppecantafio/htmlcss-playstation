@@ -13,6 +13,7 @@
 /* --------- VARIABILI */
 
 :root{
+    --navbar-bg: #F8F9FA;
     --dark-color: #000000;
     --light-color: #FFFFFF;
     --blue-color: #3066E6;
@@ -49,7 +50,9 @@ body{
     width: 100px;
 }
     /* HEADER BOTTOM */
-
+.header-bottom .bg-light{
+    background-color: var(--light-color)!important;
+}
 .header-bottom .dropdown-toggle::after {
     content: none;
 }
@@ -73,6 +76,27 @@ body{
 .nav-item a:hover .nav-text,
 .nav-item a:hover .nav-caret{
     color: #0070d1;
+}
+.header-bottom .my-dropdown{
+    background-color: var(--light-color);
+    left: 0;
+}
+.header-bottom .dd-wrapper{
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.header-bottom .dd-wrapper-2{
+    width: 50%;
+    margin: 0 auto;
+}
+.header-bottom .container-dd a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+.header-bottom .container-dd ul{
+    list-style-type: disc;
+    color: var(--active-color);
 }
 
 
