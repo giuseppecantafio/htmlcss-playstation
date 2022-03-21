@@ -126,6 +126,22 @@ main{
     border-radius: 15px;
     overflow: hidden;
 }
+#playstation-5 .container-1 img{
+    transition: top ease-in-out 0.3s;
+}
+
+#playstation-5 .container-1 .img-container:hover{
+    cursor: pointer;
+    /* per active */
+    outline: 3px solid var(--active-color);
+    outline-offset: 3px;
+    /* effetto sfumato */
+    filter: opacity(100%);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.7));
+    /* transition */
+    top: -5px;
+    position: relative;
+}
 #playstation-5 .container-2{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -354,6 +370,13 @@ main{
     padding-top: 30px;
     padding-bottom: 40px;
     font-weight: 500;
+}
+#social img{
+    transition: top ease-in-out 1s;
+}
+#social img:hover{
+    top: -10px;
+    position: relative;
 }
 
 /* --------- FOOTER */
