@@ -270,7 +270,7 @@ main{
 }
 #playstation .container .h6{
     color: var(--grey-color);
-    min-height: 40px;
+    min-height: 50px;
     font-size: 1rem;
     font-weight: bolder;
     padding-bottom: 15px;
@@ -340,7 +340,8 @@ main{
     color: var(--dark-color);
 }
 
-    /* SOCIALE */
+    /* SOCIAL */
+
 #social{
     margin-top: 50px;
     margin-bottom: 100px;
@@ -355,6 +356,50 @@ main{
     font-weight: 500;
 }
 
-
-
 /* --------- FOOTER */
+
+footer{
+    background-color: var(--footer-color);
+    padding-top: 50px;
+}
+footer .container-1 a{
+    text-decoration: none;
+    color: var(--light-color);
+}
+footer .container-1 .footer-logo{
+    margin-bottom: 15px;
+}
+footer .container-1 .footer-logo svg{
+    margin-left: -10px;
+    margin-top: -15px;
+}
+footer .container-1 .reg-text,
+footer .container-1 .languages-text,
+footer .container-1 .link-text,
+footer .container-2 .footer-text{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+footer .container-1 .reg-text{
+    position: relative;
+    bottom: -31px;
+    right: 30px;
+}
+footer .container-1 .languages-text{
+    margin-left: 15px;
+}
+footer .container-1 ul{
+    list-style-type: none;
+}
+footer .container-1 ul li{
+    padding-bottom: 10px;
+}
+footer .container-2 .footer-logo svg{
+    margin-top: -20px;
+}
+footer .container-2{
+    color: var(--light-color);
+}
+footer .container-2 .footer-text{
+    margin-top: -30px;
+}
